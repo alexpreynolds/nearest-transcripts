@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# temporary files
+*.gtf
+*.gtf.gz
+*.bed

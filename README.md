@@ -1,5 +1,13 @@
 # nearest-isoforms
-Return nearest gene isoforms within N bases of some set of input regions ("sites")
+Return nearest per-gene isoforms within N bases of some set of input regions ("sites")
+
+## Setup
+
+To install dependencies (`pyranges`, etc.):
+
+```
+$ pip install -r requirements.txt
+```
 
 ## Usage
 

@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 '''
-find_nearest_isoforms.py
+find_nearest_transcripts.py
 
-Return nearest per-gene isoforms within N bases of some set of regions
+Return nearest per-gene transcripts within N bases of some set of regions
 '''
 
 import io

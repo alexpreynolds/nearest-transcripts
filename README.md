@@ -1,5 +1,5 @@
-# nearest-isoforms
-Return nearest per-gene isoforms within N bases of some set of input regions ("sites")
+# nearest-transcripts
+Return nearest per-gene transcripts within N bases of some set of input regions ("sites")
 
 ## Setup
 
@@ -14,7 +14,7 @@ $ pip install -r requirements.txt
 Example:
 
 ```
-$ python find_nearest_isoforms.py > answer.txt
+$ python find_nearest_transcripts.py > answer.txt
 $ more answer.txt
 Chromosome	Start	End	Transcript_Start	Transcript_End	Transcript_Strand	Transcript_ID	Transcript_Distance	Gene_ID
 chr1	10000000	10000048	10032831	10180367	+	ENST00000253251.12	32784	ENSG00000130939.20
